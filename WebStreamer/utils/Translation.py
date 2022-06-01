@@ -21,9 +21,9 @@ class Language(object):
 <i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/NVSHDMOVIE'>[ @𝐍𝐕𝐒𝐇𝐃𝐌𝐎𝐕𝐈𝐄 ]</a></b>"""
 
         ABOUT_TEXT = """
-<b>⚜ Mʏ ɴᴀᴍᴇ : Public Link Generator</b>\n
+<b>⚜ Mʏ ɴᴀᴍᴇ : NVS Link Generator Bot</b>\n
 <b>🔸Vᴇʀꜱɪᴏɴ : 3.0.3.1</b>\n
-<b>🔹Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : [ 18-Feb-22 ] 12:36 AM</b>
+<b>🔹𝐌𝐨𝐯𝐢𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @NVSHDMOVIE </b>
 """
 
         stream_msg_text ="""
