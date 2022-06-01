@@ -44,29 +44,26 @@ class BUTTON(object):
         [[
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ],
         [InlineKeyboardButton("📢 Ｍｏｖｉｅ Ｃｈａｎｎｅｌ", url=f'https://t.me/NVSHDMOVIE')]
-        ]
-        [InlineKeyboardButton('❌ Cʟᴏsᴇ ❌', callback_data='close')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
         [InlineKeyboardButton("📢 Ｍｏｖｉｅ Ｃｈａｎｎｅｌ", url=f'https://t.me/NVSHDMOVIE')]
-        ]
-        [InlineKeyboardButton('❌ Cʟᴏsᴇ ❌', callback_data='close')]
         ]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
         [InlineKeyboardButton("📢 Ｍｏｖｉｅ Ｃｈａｎｎｅｌ", url=f'https://t.me/NVSHDMOVIE')]
-        ]
-        [InlineKeyboardButton('❌ Cʟᴏsᴇ ❌', callback_data='close')]
         ]
     )
