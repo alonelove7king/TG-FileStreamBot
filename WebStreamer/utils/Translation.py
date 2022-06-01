@@ -18,7 +18,7 @@ class Language(object):
 <i>- ᴅᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ</i>
 <u>🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
 <b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/{}'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
+<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/NVSHDMOVIE'>[ @𝐍𝐕𝐒𝐇𝐃𝐌𝐎𝐕𝐈𝐄 ]</a></b>"""
 
         ABOUT_TEXT = """
 <b>⚜ Mʏ ɴᴀᴍᴇ : Public Link Generator</b>\n
@@ -31,7 +31,11 @@ class Language(object):
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
-<b>🖥WATCH :</b> <i>{}</i>"""
+<b>🖥WATCH :</b> <i>{}</i>\n
+\n
+ 𝚃𝙷𝙸𝚂 𝙻𝙸𝙽𝙺 𝙸𝚂 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙰𝙽𝙳 𝚆𝙸𝙻𝙻 𝙽𝙾𝚃 𝙴𝚇𝙿𝙸𝚁𝙴\n
+\n
+@NVSHDMOVIE"""
 
 # ------------------------------------------------------------------------------
 
@@ -40,26 +44,29 @@ class BUTTON(object):
         [[
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/{Var.UPDATES_CHANNEL}')]
+        [InlineKeyboardButton("📢 Ｍｏｖｉｅ Ｃｈａｎｎｅｌ", url=f'https://t.me/NVSHDMOVIE')]
+        ]
+        [InlineKeyboardButton('❌ Cʟᴏsᴇ ❌', callback_data='close')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/{Var.UPDATES_CHANNEL}')]
+        [InlineKeyboardButton("📢 Ｍｏｖｉｅ Ｃｈａｎｎｅｌ", url=f'https://t.me/NVSHDMOVIE')]
+        ]
+        [InlineKeyboardButton('❌ Cʟᴏsᴇ ❌', callback_data='close')]
         ]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/{Var.UPDATES_CHANNEL}')]
+        [InlineKeyboardButton("📢 Ｍｏｖｉｅ Ｃｈａｎｎｅｌ", url=f'https://t.me/NVSHDMOVIE')]
+        ]
+        [InlineKeyboardButton('❌ Cʟᴏsᴇ ❌', callback_data='close')]
         ]
     )
